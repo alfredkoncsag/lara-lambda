@@ -2,7 +2,11 @@
 
 Lara-Lambda is a quick way to prepare a [Laravel](https://laravel.com), [Lumen](https://lumen.laravel.com) or [Laravel Zero](https://laravel-zero.com) project to run on [AWS Lambda](https://aws.amazon.com/lambda/).
 
-###Quick Start:
+### WIP
+
+__This is a *Work In Progress* and is not ready to be used yet. Don't use it unless you know what you are doing. It will be ready for release soon.__
+
+### Quick Start:
 
 ```
 
@@ -28,16 +32,16 @@ Supported Applications:
 
 All Options:
 
- -  -a, --app[=APP] 
- 
+ -  -a, --app[=APP]
+
  `PHP Application to create (Laravel|Lumen|LaravelZero) [default: "laravel"]`
 
  - -d, --directory[=DIRECTORY]
- 
+
  `PHP Application directory to use inside ProjectName directory [default: "php/application"]`
 
  - -f, --force
- 
+
  `Forces install even if the directory already exists`
 
 
