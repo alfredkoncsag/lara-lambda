@@ -1,19 +1,21 @@
 {
-    "name": "nsouto/laravel-lambda-installer",
-    "description": "Laravel on AWS Lambda",
+    "name": "nsouto/lara-lambda",
+    "description": "Laravel, Lumen or Laravel-Zero on AWS Lambda",
     "keywords": [
         "framework",
         "laravel",
+        "lumen",
+        "laravel-zero",
         "aws",
         "lambda",
         "cli"
     ],
-    "homepage": "https://lostlink.net/opensource/laravel-lambda",
+    "homepage": "https://lostlink.net/opensource/lara-lambda",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/nsouto/laravel-lambda/issues",
-        "source": "https://github.com/nsouto/laravel-lambda"
+        "issues": "https://github.com/nsouto/lara-lambda/issues",
+        "source": "https://github.com/nsouto/lara-lambda"
     },
     "authors": [
         {
@@ -58,6 +60,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "bin": [
-        "laravel-lambda"
+        "lara-lambda"
     ]
 }

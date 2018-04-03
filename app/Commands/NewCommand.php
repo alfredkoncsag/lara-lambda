@@ -20,7 +20,7 @@ class NewCommand extends Command
     protected $signature = 'new
         {name : Please specify a Project Name }
         {--a|app=laravel : PHP Application to create (Laravel|Lumen|Laravel-Zero)}
-        {--d|directory=php/application : PHP Application folder to use }
+        {--d|directory=php/application : PHP Application folder to use inside ProjectName Folder }
         {--f|force : Forces install even if the directory already exists }
     ';
 
@@ -301,6 +301,7 @@ class NewCommand extends Command
                 break;
 
             case "laravel-zero":
+            case "laravelzero":
                 return collect([
                     'shell' => collect([
                         'npm install',
