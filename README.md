@@ -19,18 +19,18 @@ After the instalation you can create a new project by running the command:
 
 ```
 
-lara-lambda new -a Laravel ProjectName
+lara-lambda new ProjectName
 
 
 ```
 
-Supported Applications:
+### Supported Applications:
 
 - Laravel
 - Lumen
 - LaravelZero
 
-All Options:
+### Options:
 
  -  -a, --app[=APP]
 
@@ -43,6 +43,16 @@ All Options:
  - -f, --force
 
  `Forces install even if the directory already exists`
+
+### Basic Project Files
+
+  - __ProjectName__
+    - __php__
+      - __application__ - *Laravel, Lumen or Laravel-Zero Application*
+      - __bin__ - *PHP binary for AWS Lambda*
+    - __node_modules__ - *Node Modules for NodeJS Wrapper*
+    - index.js - *NodeJS Wrapper for AWS Lambda*
+    - package.json - *NodeJS Required Packages*
 
 
 ## License
