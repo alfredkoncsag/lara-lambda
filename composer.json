@@ -11,7 +11,7 @@
         "cli"
     ],
     "homepage": "https://lostlink.net/opensource/lara-lambda",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/nsouto/lara-lambda/issues",
