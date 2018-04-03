@@ -12,7 +12,6 @@ __This is a *Work In Progress* and is not ready to be used yet. Don't use it unl
 
 composer global require nsouto/lara-lambda
 
-
 ```
 
 After the instalation you can create a new project by running the command:
@@ -20,7 +19,6 @@ After the instalation you can create a new project by running the command:
 ```
 
 lara-lambda new ProjectName
-
 
 ```
 
